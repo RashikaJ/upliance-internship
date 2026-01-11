@@ -1,4 +1,5 @@
 📊 Data Analytics Intern Assignment – upliance.ai
+
 📌 Overview
 
 This project analyzes operational data using pure JavaScript to demonstrate real-world data handling, entity-level aggregation, and dynamic visualization. The solution supports dynamic time-based grouping and cross-table matching without any manual data cleaning.
