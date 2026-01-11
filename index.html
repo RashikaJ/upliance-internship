@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Data Analytics Intern Assignment</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>                                Operational Data Dashboard</h2>
+
+    <div class="controls">
+      <label>
+        Data View
+        <select id="dataView">
+          <option value="orders">Orders</option>
+          <option value="sessions">Sessions</option>
+          <option value="calls">Calls</option>
+        </select>
+      </label>
+
+      <label>
+        Time Granularity
+        <select id="granularity">
+          <option value="daily">Daily</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+        </select>
+      </label>
+    </div>
+
+    <p id="metric"></p>
+    <canvas id="chart"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
